@@ -28,7 +28,7 @@ body {
 }
 
 #zegar {
-  color: rgb(222, 189, 181);
+    color: rgb(222, 189, 181);
   font-family: "Stick No Bills", sans-serif;
   font-size: 6rem;
   font-weight: 600;
@@ -36,8 +36,9 @@ body {
   margin-left: auto;
   margin-right: auto;
   max-width: 70vw;
-  padding: 7% 0.5em 0.9% 0.5em;
+  padding: 7% 0 0 0;
   text-align: center;
+  word-wrap: break-word;
 
 .laptop {
   margin: 3% auto 0 auto;
