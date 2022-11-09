@@ -39,7 +39,7 @@ body {
   max-width: 70vw;
   padding: 7% 0.5em 0.9% 0.5em;
 /*   position: relative; */
-  text-align: left;
+  text-align: center;
 /*   z-index: +1; */
 }
 
@@ -51,53 +51,4 @@ body {
 .laptop {
   margin: 3% auto 0 auto;
   width: 100%;
-}
-
-/* @media all and (min-width: 2001px) {
-  #zegar {
-    font-size: 7rem;
-  }
-} */
-/* 
-@media all and (max-width: 2000px) {
-/*   .foto {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100vw;
-  } */
-  .container {
-    width: 100vw;
-  }
-} */
-
-/* @media all and (max-width: 1200px) {
-  #zegar {
-    font-size: 4rem;
-  }
-  .foto {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100vw;
-  }
-  .container {
-    width: 100vw;
-  }
-} */
-
-@media all and (max-width: 768px) {
-  #zegar {
-    font-size: 3rem;
-  }
-}
-
-@media all and (max-width: 576px) {
-  #zegar {
-    font-size: 2.2rem;
-  }
-}
-
-@media all and (max-width: 360px) {
-  #zegar {
-    font-size: 1.5rem;
-  }
 }
