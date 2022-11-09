@@ -28,7 +28,7 @@ body {
 }
 
 #zegar {
-  border-radius: 9em;
+/*   border-radius: 9em; */
   color: rgb(222, 189, 181);
   font-family: "Stick No Bills", sans-serif;
   font-size: 6rem;
@@ -38,26 +38,26 @@ body {
   margin-right: auto;
   max-width: 70vw;
   padding: 7% 0.5em 0.9% 0.5em;
-  position: relative;
+/*   position: relative; */
   text-align: left;
-  z-index: +1;
+/*   z-index: +1; */
 }
 
 .foto {
-  margin: 3% auto 0 auto;
-  overflow-x: auto;
-  width: 100%;
+/*   overflow-x: auto; */
+/*   width: 100%; */
 }
 
 .laptop {
+  margin: 3% auto 0 auto;
   width: 100%;
 }
 
-@media all and (min-width: 2001px) {
+/* @media all and (min-width: 2001px) {
   #zegar {
     font-size: 7rem;
   }
-}
+} */
 
 @media all and (max-width: 2000px) {
   .foto {
