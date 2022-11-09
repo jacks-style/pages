@@ -1,0 +1,47 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: black;
+  background-image: url(img/tlo.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+}
+
+.bgr {
+  background-color: rgb(0, 0, 0);
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100vw;
+  width: 162rem;
+}
+
+#clock {
+  color: rgb(222, 189, 181);
+  font-family: "Stick No Bills", sans-serif;
+  font-size: 6rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70vw;
+  padding: 7% 0 0 0;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.laptop {
+  margin: 0 auto;
+  width: 100%;
+}
