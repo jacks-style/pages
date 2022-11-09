@@ -28,7 +28,6 @@ body {
 }
 
 #zegar {
-/*   border-radius: 9em; */
   color: rgb(222, 189, 181);
   font-family: "Stick No Bills", sans-serif;
   font-size: 6rem;
@@ -38,15 +37,7 @@ body {
   margin-right: auto;
   max-width: 70vw;
   padding: 7% 0.5em 0.9% 0.5em;
-/*   position: relative; */
   text-align: center;
-/*   z-index: +1; */
-}
-
-.foto {
-/*   overflow-x: auto; */
-/*   width: 100%; */
-}
 
 .laptop {
   margin: 3% auto 0 auto;
