@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(44, 6, 6);
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+.div__button {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.btn {
+  background-color: rgb(44, 6, 6);
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 12px;
+  box-shadow: -10px 0 0 rgb(109, 77, 77);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 20px;
+  height: 38px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  transition: border 0.2s, box-shadow 0.2s;
+  width: 116px;
+}
+
+.btn:hover {
+  border: 2px solid rgb(108, 108, 108);
+  box-shadow: 20px 0 50px rgb(109, 77, 77);
+}
+
+.btn:active {
+  background-color: rgb(70, 70, 70);
+  border: 28px solid rgb(159, 159, 159);
+  box-shadow: 895px 895px 10px rgba(0, 156, 44, 0.833);
+  color: rgb(44, 6, 6);
+  font-size: 14px;
+}
