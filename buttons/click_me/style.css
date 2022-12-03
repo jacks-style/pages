@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap");
+
+body {
+  align-items: center;
+  background-color: rgb(2, 4, 20);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  overflow: hidden;
+  width: 100vw;
+}
+button {
+  background: linear-gradient(to top right, rgb(73, 73, 255), rgb(255, 0, 0));
+  border: 1px solid rgb(255, 237, 204);
+  border-radius: 10px;
+  box-shadow: 0 0 25px rgb(186, 186, 195);
+  color: rgb(25, 15, 51);
+  font-family: "Syne Tactile", cursive;
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  padding: 3px 20px;
+  text-transform: uppercase;
+  transform: translateY(-50%);
+}
