@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Inspiration&display=swap");
+
+body {
+  background-color: rgb(0, 0, 0);
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  width: 100vw;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+#div__hidden {
+  align-items: center;
+  display: none;
+  height: 100vh;
+  justify-content: center;
+  margin: auto;
+  position: absolute;
+  z-index: 9;
+}
+
+#IMG__2 {
+  animation: size 1s alternate 2;
+}
+
+@keyframes size {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    margin-right: 100px;
+    margin-top: 300px;
+    rotate: x 40deg;
+    rotate: z 20deg;
+    transform: scale(1.8);
+  }
+}
+
+.div__btn {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  position: relative;
+}
+
+button {
+  background-color: rgb(27, 27, 27);
+  border: 2px solid #cbdf94;
+  border-radius: 20px;
+  color: #cbdf94;
+  font-family: "Inspiration", cursive;
+  font-size: 22px;
+  font-weight: bolder;
+  letter-spacing: 5px;
+  padding: 8px 20px;
+  transition: font-size 0.3s;
+}
+
+button:hover {
+  background-color: #abbc7c;
+  border: 3px solid rgb(255, 255, 255);
+  color: rgb(27, 27, 27);
+  cursor: pointer;
+  font-size: 32px;
+}
+
+button:active {
+  background-color: rgb(226, 0, 0);
+  border: 3px solid rgb(226, 0, 0);
+}
+
+#img__1 {
+  display: initial;
+  margin-bottom: 90px;
+  margin-left: 390px;
+  position: absolute;
+  transition: width 0.5s;
+  width: 160px;
+}
+
+@media all and (max-width: 768px) {
+  button {
+    font-size: 14px;
+    letter-spacing: 3px;
+    padding: 5px 14px;
+    transition: font-size 0.3s;
+  }
+  button:hover {
+    font-size: 32px;
+  }
+  #img__1 {
+    margin-bottom: 70px;
+    margin-left: 240px;
+    width: 110px;
+  }
+  #IMG__2 {
+    width: 280px;
+  }
+}
