@@ -6,6 +6,7 @@ body {
   padding: 0;
   margin: 0;
   overflow: hidden;
+  width: 100vw;
 }
 
 .container {
@@ -69,7 +70,6 @@ button:hover {
   color: rgb(27, 27, 27);
   cursor: pointer;
   font-size: 32px;
-  letter-spacing: 5px;
 }
 
 button:active {
@@ -84,4 +84,24 @@ button:active {
   position: absolute;
   width: 160px;
   transition: display 2s;
+}
+
+@media all and (max-width: 768px) {
+  button {
+    font-size: 14px;
+    letter-spacing: 3px;
+    padding: 5px 14px;
+    transition: font-size 0.3s;
+  }
+  button:hover {
+    font-size: 32px;
+  }
+  #img__1 {
+    margin-bottom: 70px;
+    margin-left: 240px;
+    width: 110px;
+  }
+  #IMG__2 {
+    width: 280px;
+  }
 }
