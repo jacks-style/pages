@@ -1,4 +1,4 @@
 # pages
 
-My pages: <br/>
+My projects: <br/>
   https://jacks-style.github.io/pages/roksaq/ 
