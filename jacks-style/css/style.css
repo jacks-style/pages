@@ -270,7 +270,7 @@ body {
 
 .about__pics {
   background-color: rgb(0, 0, 0);
-  border-radius: 12em;
+  border-radius: 20em;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
