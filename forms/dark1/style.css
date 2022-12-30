@@ -80,6 +80,7 @@ textarea {
 .dmsg textarea {
   margin-left: 1.22em;
   font-size: 5.7em;
+  resize: none;
   width: 12.65em;
 }
 
