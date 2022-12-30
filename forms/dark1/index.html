@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Dark1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <div>
+        <form class="frm">
+          <fieldset>
+            <legend class="lgnd">Contact form</legend>
+            <div class="lblinside">
+              <label for="name1">First Name </label>
+            </div>
+            <input type="text" name="name1" id="name1" required />
+            <div class="lblinside">
+              <label for="name2">Last Name </label>
+            </div>
+            <input type="text" name="name2" id="name2" required />
+            <div class="lblinside">
+              <label for="mail">E-mail </label>
+            </div>
+            <input type="email" name="mail" id="mail" required />
+            <div class="dmsg">
+              <div class="lblinside">
+                <label for="msg">Message </label>
+              </div>
+              <textarea
+                name="msg"
+                id="msg"
+                cols="18"
+                rows="7"
+                maxlength="300"
+                required
+              ></textarea>
+            </div>
+            <div class="lblinside">
+              <label for="submit"></label>
+            </div>
+            <input type="submit" name="sbm" id="sbm" value="Send" />
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
