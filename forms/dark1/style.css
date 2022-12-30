@@ -30,10 +30,6 @@ body {
   display: flex;
   height: 140em;
   justify-content: center;
-  /* left: 50%; */
-  /* position: relative;
-  top: 50%; */
-  /* transform: translate(-50%, -50%); */
   width: 130em;
 }
 
