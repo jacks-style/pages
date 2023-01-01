@@ -129,10 +129,10 @@ input:-webkit-autofill:active {
     flex-direction: column;
   }
   .dmsg textarea {
-    margin-left: 1.22em;
+    margin-left: 1.45em;
     margin-top: 0.6em;
     font-size: 4.1em;
-    width: 13.65em;
+    width: 12.96em;
   }
   input[type="submit"] {
     width: fit-content;
