@@ -167,7 +167,8 @@ body {
 }
 
 .hamburgermenu {
-  background-color: transparent;
+  background-color: transparent; 
+  border: none;
   cursor: pointer;
   display: none;
   margin: 10em auto 0;
