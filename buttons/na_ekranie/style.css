@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Undeveloped";
+  src: url("fonts/undeveloped.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(13, 13, 17);
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.btn {
+  font-family: Undeveloped;
+  background-color: rgba(96, 96, 136, 0.4);
+  border: 1.5vw solid;
+  border-image-source: linear-gradient(to left, #733ad54e, #d53a9c34);
+  border-image-repeat: norepeat;
+  border-image-outset: 0.1em;
+  border-image-slice: 10;
+  border-image-width: 0.1em;
+  box-shadow: 0 0 0.3em 0.1em rgb(96, 96, 136),
+    inset 0 0 0.1em 0.1em rgb(78, 78, 114);
+  color: rgb(13, 13, 17);
+  cursor: pointer;
+  font-size: clamp(12px, 7vw, 7vw);
+  inset: auto auto 10vw auto;
+  min-width: max-content;
+  padding: 0.6em 0.8em 0.5em 0.8em;
+  position: relative;
+  text-shadow: 0 0 0.25em rgba(255, 255, 255, 0.832);
+  transform: scale(1);
+  transition: transform 0.15s;
+}
+
+.btn::before {
+  background-color: rgb(155, 155, 200);
+  content: "";
+  filter: blur(15vw);
+  height: 100%;
+  left: 0;
+  opacity: 0.7;
+  pointer-events: none;
+  position: absolute;
+  top: 120%;
+  transform: perspective(20vw) rotateX(40deg) scale(1, 0.4);
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: rgb(42, 42, 69);
+  box-shadow: 0 0 0.6em 0.1em rgb(108, 108, 150),
+    inset 0 0 0.1em 0.1em rgb(88, 88, 128);
+  color: black;
+}
+
+.btn:hover.btn::before {
+  background-color: rgb(155, 155, 200);
+  opacity: 1;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
