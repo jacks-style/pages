@@ -6,6 +6,11 @@
 }
 
 body {
+  background-image: -webkit-linear-gradient(
+    99deg,
+    rgb(31, 20, 26) 10.6%,
+    rgb(63, 10, 45) 140%
+  );
   background-image: linear-gradient(
     99deg,
     rgb(31, 20, 26) 10.6%,
@@ -36,6 +41,11 @@ button:hover {
 /* BUTTON 1  */
 
 .btn1 {
+  background-image: -webkit-linear-gradient(
+    99deg,
+    rgb(52, 34, 44) 10.6%,
+    rgb(100, 18, 72) 140%
+  );
   background-image: linear-gradient(
     99deg,
     rgb(52, 34, 44) 10.6%,
@@ -96,6 +106,11 @@ button:hover {
 }
 
 .btn1:active {
+  background-image: -webkit-linear-gradient(
+    99deg,
+    rgb(52, 34, 44) 10.6%,
+    rgb(79, 13, 57) 140%
+  );
   background-image: linear-gradient(
     99deg,
     rgb(52, 34, 44) 10.6%,
@@ -119,6 +134,11 @@ button:hover {
 /* BUTTON 2  */
 
 .btn2 {
+  background-image: -webkit-linear-gradient(
+    99deg,
+    rgb(52, 34, 44) 10.6%,
+    rgb(100, 18, 72) 140%
+  );
   background-image: linear-gradient(
     99deg,
     rgb(52, 34, 44) 10.6%,
@@ -157,6 +177,11 @@ button:hover {
 }
 
 .btn2:active {
+  background-image: -webkit-linear-gradient(
+    99deg,
+    rgb(52, 34, 44) 10.6%,
+    rgb(79, 13, 57) 140%
+  );
   background-image: linear-gradient(
     99deg,
     rgb(52, 34, 44) 10.6%,
@@ -174,6 +199,11 @@ button:hover {
 /* BUTTON 3  */
 
 .btn3 {
+  background-image: -webkit-linear-gradient(
+    99deg,
+    rgb(52, 34, 44) 10.6%,
+    rgb(100, 18, 72) 140%
+  );
   background-image: linear-gradient(
     99deg,
     rgb(52, 34, 44) 10.6%,
@@ -212,6 +242,11 @@ button:hover {
 }
 
 .btn3:active {
+  background-image: -webkit-linear-gradient(
+    99deg,
+    rgb(52, 34, 44) 10.6%,
+    rgb(79, 13, 57) 140%
+  );
   background-image: linear-gradient(
     99deg,
     rgb(52, 34, 44) 10.6%,
@@ -249,6 +284,11 @@ button:hover {
 /* BUTTON 4  */
 
 .btn4 {
+  background-image: -webkit-linear-gradient(
+    99deg,
+    rgb(52, 34, 44) 10.6%,
+    rgb(100, 18, 72) 140%
+  );
   background-image: linear-gradient(
     99deg,
     rgb(52, 34, 44) 10.6%,
@@ -286,6 +326,11 @@ button:hover {
 }
 
 .btn4:active {
+  background-image: -webkit-linear-gradient(
+    99deg,
+    rgb(52, 34, 44) 10.6%,
+    rgb(79, 13, 57) 140%
+  );
   background-image: linear-gradient(
     99deg,
     rgb(52, 34, 44) 10.6%,
