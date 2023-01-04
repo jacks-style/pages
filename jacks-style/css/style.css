@@ -17,9 +17,9 @@
 }
 
 body {
-  background-color: #24262a;
-  background-image: -webkit-linear-gradient(315deg, #24262a 0%, #131416 74%);
-  background-image: linear-gradient(315deg, #24262a 0%, #131416 74%);
+  background-color: #131416;
+  /* background-image: -webkit-linear-gradient(315deg, #24262a 0%, #131416 74%);
+  background-image: linear-gradient(315deg, #24262a 0%, #131416 74%); */
   background-repeat: no-repeat;
   color: var(--primary-color);
   font-size: 1.6rem;
