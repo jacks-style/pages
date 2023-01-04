@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira:ital,wght@1,500&display=swap");
+
+body {
+  background-color: rgb(245, 240, 232);
+  box-sizing: border-box;
+  font-family: "Saira", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  align-items: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-inline: auto;
+  min-height: 100vh;
+  width: 70vw;
+}
+
+.dbtn {
+  margin: 1em;
+}
+
+/* BUTTON 1  */
+
+.btn1 {
+  background-color: #c9d6ff;
+  background: -webkit-linear-gradient(to top, #c9d6ff, #e2e2e2);
+  background: linear-gradient(to top, #c9d6ff, #e2e2e2);
+  border: 0.16em solid white;
+  border-bottom: 0.15em solid #9ba0bbb2;
+  border-left: 0.16em solid #b6c2e6;
+  border-right: 0.15em solid #9ba0bbb2;
+  border-top: 0.16em solid #b6c2e6;
+  border-radius: 1em;
+  color: #363a42ee;
+  font-family: "Saira", sans-serif;
+  font-size: 1.4rem;
+  letter-spacing: 0.1em;
+  padding: 0.1em 0.8em;
+}
+
+.btn1:hover {
+  background-color: #eaeaea;
+  background: -webkit-linear-gradient(to top, #d1dcff, #eaeaea);
+  background: linear-gradient(to top, #d1dcff, #eaeaea);
+  color: #424750ee;
+  cursor: pointer;
+}
+
+.btn1:active {
+  background: -webkit-linear-gradient(to top, #c9d6ff, #e2e2e2);
+  background: linear-gradient(to top, #c9d6ff, #e2e2e2);
+  border-bottom: 0.14em solid #b6c2e6;
+  border-left: 0.17em solid #9ba0bbb2;
+  border-right: 0.14em solid #b6c2e6;
+  border-top: 0.17em solid #9ba0bbb2;
+  color: #363a42ee;
+}
+
+/* BUTTON 2  */
+
+.btn2 {
+  background-color: #fffd89;
+  background: -webkit-linear-gradient(to top, #fffd6f, #fffeab);
+  background: linear-gradient(to top, #fffd6f, #fffeab);
+  border: 0.16em solid white;
+  border-bottom: 0.15em solid #c7c54d;
+  border-left: 0.16em solid #dcda79;
+  border-right: 0.15em solid #c7c54d;
+  border-top: 0.16em solid #dcda79;
+  border-radius: 1em;
+  color: #363a42ee;
+  font-family: "Saira", sans-serif;
+  font-size: 1.4rem;
+  letter-spacing: 0.1em;
+  padding: 0.1em 0.8em;
+}
+
+.btn2:hover {
+  background: -webkit-linear-gradient(to top, #fffd93, #ffffd4);
+  background: linear-gradient(to top, #fffd93, #ffffd4);
+  color: #424750ee;
+  cursor: pointer;
+}
+
+.btn2:active {
+  background: -webkit-linear-gradient(to top, #fffd6f, #fffeab);
+  background: linear-gradient(to top, #fffd6f, #fffeab);
+  color: #363a42ee;
+  border-bottom: 0.14em solid #dcda79;
+  border-left: 0.17em solid #c7c54d;
+  border-right: 0.14em solid #dcda79;
+  border-top: 0.17em solid #c7c54d;
+}
+
+/* BUTTON 3  */
+
+.btn3 {
+  background-color: #24fe41;
+  background: -webkit-linear-gradient(to top, #24fe82, #d9ffa4);
+  background: linear-gradient(to top, #24fe82, #d9ffa4);
+  border: 0.16em solid white;
+  border-bottom: 0.15em solid #12cc63;
+  border-left: 0.16em solid #0dec6e;
+  border-right: 0.15em solid #12cc63;
+  border-top: 0.16em solid #0dec6e;
+  border-radius: 1em;
+  color: #363a42ee;
+  font-family: "Saira", sans-serif;
+  font-size: 1.4rem;
+  letter-spacing: 0.1em;
+  padding: 0.1em 0.8em;
+}
+
+.btn3:hover {
+  background: -webkit-linear-gradient(to top, #24fe82, #d9ffa4);
+  background: linear-gradient(to top, #5dffa3, #e8fec9);
+  color: #424750ee;
+  cursor: pointer;
+}
+
+.btn3:active {
+  background: -webkit-linear-gradient(to top, #24fe82, #d9ffa4);
+  background: linear-gradient(to top, #24fe82, #d9ffa4);
+  color: #363a42ee;
+  border-bottom: 0.14em solid #0dec6e;
+  border-left: 0.17em solid #12cc63;
+  border-right: 0.14em solid #0dec6e;
+  border-top: 0.17em solid #12cc63;
+}
+
+/* BUTTON 4  */
+
+.btn4 {
+  background-color: #ffa4a4;
+  background: -webkit-linear-gradient(to top, #ff887b, #ffc6cd);
+  background: linear-gradient(to top, #ff887b, #ffc6cd);
+  border: 0.16em solid white;
+  border-bottom: 0.15em solid rgb(231, 66, 48);
+  border-left: 0.16em solid #ff7060;
+  border-right: 0.15em solid rgb(231, 66, 48);
+  border-top: 0.16em solid #ff7060;
+  border-radius: 1em;
+  color: #363a42ee;
+  font-family: "Saira", sans-serif;
+  font-size: 1.4rem;
+  letter-spacing: 0.1em;
+  padding: 0.1em 0.8em;
+}
+
+.btn4:hover {
+  background: -webkit-linear-gradient(to top, #ff9488, #ffd5d9);
+  background: linear-gradient(to top, #ff9488, #ffd5d9);
+  color: #424750ee;
+  cursor: pointer;
+}
+
+.btn4:active {
+  background: -webkit-linear-gradient(to top, #ff887b, #ffc6cd);
+  background: linear-gradient(to top, #ff887b, #ffc6cd);
+  color: #363a42ee;
+  border-bottom: 0.15em solid #ff7060;
+  border-left: 0.16em solid rgb(231, 66, 48);
+  border-right: 0.15em solid #ff7060;
+  border-top: 0.16em solid rgb(231, 66, 48);
+}
+
+/* BUTTON 5  */
+
+.btn5 {
+  background-color: #b2fefa;
+  background: -webkit-linear-gradient(to top, #0ed2f7, #b2fefa);
+  background: linear-gradient(to top, #0ed2f7, #b2fefa);
+  border: 0.16em solid white;
+  border-bottom: 0.15em solid #0ca8c7;
+  border-left: 0.16em solid #0ec5ea;
+  border-right: 0.15em solid #0ca8c7;
+  border-top: 0.16em solid #0ec5ea;
+  border-radius: 1em;
+  color: #363a42ee;
+  font-family: "Saira", sans-serif;
+  font-size: 1.4rem;
+  letter-spacing: 0.1em;
+  padding: 0.1em 0.8em;
+}
+
+.btn5:hover {
+  background: -webkit-linear-gradient(to top, #39deff, #c9fffc);
+  background: linear-gradient(to top, #39deff, #c9fffc);
+  color: #424750ee;
+  cursor: pointer;
+}
+
+.btn5:active {
+  background: -webkit-linear-gradient(to top, #0ed2f7, #b2fefa);
+  background: linear-gradient(to top, #0ed2f7, #b2fefa);
+  color: #363a42ee;
+  border-bottom: 0.15em solid #0ec5ea;
+  border-left: 0.16em solid #0ca8c7;
+  border-right: 0.15em solid #0ec5ea;
+  border-top: 0.16em solid #0ca8c7;
+}
+
+/* BUTTON 6  */
+
+.btn6 {
+  background-color: #ecddc2;
+  background: -webkit-linear-gradient(to top, #decba4, #3e5151);
+  background: linear-gradient(to top, #b2d4d4, #ffe9c1);
+  border: 0.16em solid white;
+  border-bottom: 0.15em solid #a7babf;
+  border-left: 0.16em solid #e3cfa9;
+  border-right: 0.15em solid #a7babf;
+  border-top: 0.16em solid #e3cfa9;
+  border-radius: 1em;
+  color: #363a42ee;
+  font-family: "Saira", sans-serif;
+  font-size: 1.4rem;
+  letter-spacing: 0.1em;
+  padding: 0.1em 0.8em;
+}
+
+.btn6:hover {
+  background: -webkit-linear-gradient(to top, #decba4, #3e5151);
+  background: linear-gradient(to top, #b4dada, #fff1d9);
+  color: #424750ee;
+  cursor: pointer;
+}
+
+.btn6:active {
+  background: -webkit-linear-gradient(to top, #decba4, #3e5151);
+  background: linear-gradient(to top, #b2d4d4, #ffe9c1);
+  color: #363a42ee;
+  border-bottom: 0.15em solid #e3cfa9;
+  border-left: 0.16em solid #a7babf;
+  border-right: 0.15em solid #e3cfa9;
+  border-top: 0.16em solid #a7babf;
+}
