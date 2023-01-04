@@ -49,6 +49,7 @@ button:hover {
   letter-spacing: 0.15em;
   padding: 0.4em 0.6em 0.4em 0.7em;
   position: relative;
+  transition: all 0.1s;
 }
 
 .btn1::after {
@@ -131,6 +132,7 @@ button:hover {
   letter-spacing: 0.15em;
   padding: 0.4em 0.6em 0.4em 0.7em;
   position: relative;
+  transition: all 0.15s;
 }
 
 .btn2::before {
@@ -185,6 +187,7 @@ button:hover {
   letter-spacing: 0.15em;
   padding: 0.4em 0.6em 0.4em 0.7em;
   position: relative;
+  transition: all 0.15s;
 }
 
 .btn3::before {
