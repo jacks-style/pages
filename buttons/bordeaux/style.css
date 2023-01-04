@@ -20,13 +20,20 @@ body {
 .container {
   align-items: center;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   min-height: 100vh;
+}
+
+.dbtn {
+  margin: 1.5em;
 }
 
 button:hover {
   cursor: pointer;
 }
+
+/* BUTTON 1  */
 
 .btn1 {
   background-image: linear-gradient(
@@ -34,9 +41,9 @@ button:hover {
     rgb(52, 34, 44) 10.6%,
     rgb(100, 18, 72) 140%
   );
-  border: 0.03em solid rgb(101, 53, 87);
+  border: 0.03em solid rgb(151, 84, 129);
   border-radius: 0.05em;
-  color: rgb(200, 148, 189);
+  color: rgb(199, 135, 185);
   font-family: Rajdhani-Medium;
   font-size: 1.4rem;
   letter-spacing: 0.15em;
@@ -44,8 +51,8 @@ button:hover {
   position: relative;
 }
 
-.btn1::before {
-  background-color: rgb(63, 10, 45);
+.btn1::after {
+  background-color: rgb(151, 84, 129);
   border-top-left-radius: 0.2em;
   border-top-right-radius: 0.3em;
   border-bottom-left-radius: 2em;
@@ -55,12 +62,12 @@ button:hover {
   height: 100%;
   left: 0;
   position: absolute;
-  transition: all 0.2s;
+  transition: all 0.15s;
   width: 100%;
   z-index: -1;
 }
 
-.btn1::after {
+.btn1::before {
   background-color: rgb(86, 20, 64);
   border: 0.01em solid rgba(170, 170, 170, 0.44);
   border-radius: 0.05em;
@@ -75,18 +82,16 @@ button:hover {
 }
 
 .btn1:hover {
-  border-color: rgb(143, 51, 143);
+  border-color: rgb(175, 96, 149);
   border-top-left-radius: 0.5em 0.35em;
   box-shadow: 0 0 0.15em rgba(199, 90, 162, 0.537);
   color: violet;
-  line-height: 110%;
-  width: 105%;
 }
 
-.btn1:hover.btn1::before {
+.btn1:hover.btn1::after {
   bottom: 16%;
   content: "";
-  transform: rotate(7deg);
+  transform: rotate(3deg);
 }
 
 .btn1:active {
@@ -97,18 +102,223 @@ button:hover {
   );
   border-color: rgb(189, 107, 189);
   box-shadow: inset 0.02em 0.02em 0.1em rgb(100, 79, 95);
-  font-size: 1.38em;
-}
-
-.btn1:active.btn1::before {
-  background-color: rgba(76, 13, 55, 0.564);
-  border-bottom-left-radius: 0.2em;
-  left: -5%;
-  transform: rotate(8deg);
 }
 
 .btn1:active.btn1::after {
+  border-bottom-left-radius: 0.2em;
+  left: -5%;
+  transform: rotate(4deg);
+}
+
+.btn1:active.btn1::before {
   background-color: rgb(76, 13, 55);
   border: 0.01em solid rgba(99, 99, 99, 0.705);
-  box-shadow: 0.03em 0.07em 0.2em rgba(128, 128, 128, 0.636);
+}
+
+/* BUTTON 2  */
+
+.btn2 {
+  background-image: linear-gradient(
+    99deg,
+    rgb(52, 34, 44) 10.6%,
+    rgb(100, 18, 72) 140%
+  );
+  border: 0.03em solid rgb(151, 84, 129);
+  border-radius: 0.05em;
+  color: rgb(199, 135, 185);
+  font-family: Rajdhani-Medium;
+  font-size: 1.4rem;
+  letter-spacing: 0.15em;
+  padding: 0.4em 0.6em 0.4em 0.7em;
+  position: relative;
+}
+
+.btn2::before {
+  background-color: rgb(86, 20, 64);
+  border: 0.01em solid rgba(170, 170, 170, 0.44);
+  border-radius: 0.05em;
+  bottom: -4.57%;
+  content: "";
+  height: 108%;
+  left: -3%;
+  position: absolute;
+  transition: all 0.2s;
+  width: 106%;
+  z-index: -2;
+}
+
+.btn2:hover {
+  border-color: rgb(175, 96, 149);
+  border-top-left-radius: 0.5em 0.35em;
+  box-shadow: 0 0 0.15em rgba(199, 90, 162, 0.537);
+  color: violet;
+}
+
+.btn2:active {
+  background-image: linear-gradient(
+    99deg,
+    rgb(52, 34, 44) 10.6%,
+    rgb(79, 13, 57) 140%
+  );
+  border-color: rgb(189, 107, 189);
+  box-shadow: inset 0.02em 0.02em 0.1em rgb(100, 79, 95);
+}
+
+.btn2:active.btn2::before {
+  background-color: rgb(76, 13, 55);
+  border: 0.01em solid rgba(99, 99, 99, 0.705);
+}
+
+/* BUTTON 3  */
+
+.btn3 {
+  background-image: linear-gradient(
+    99deg,
+    rgb(52, 34, 44) 10.6%,
+    rgb(100, 18, 72) 140%
+  );
+  border: 0.03em solid rgb(151, 84, 129);
+  border-radius: 0.05em;
+  color: rgb(199, 135, 185);
+  font-family: Rajdhani-Medium;
+  font-size: 1.4rem;
+  letter-spacing: 0.15em;
+  padding: 0.4em 0.6em 0.4em 0.7em;
+  position: relative;
+}
+
+.btn3::before {
+  background-color: rgb(86, 20, 64);
+  border: 0.01em solid rgba(170, 170, 170, 0.44);
+  border-radius: 0.05em;
+  bottom: -4.57%;
+  content: "";
+  height: 108%;
+  left: -3%;
+  position: absolute;
+  transition: all 0.2s;
+  width: 106%;
+  z-index: -2;
+}
+
+.btn3:hover {
+  border-color: rgb(175, 96, 149);
+  border-top-left-radius: 0.5em 0.35em;
+  box-shadow: 0 0 0.15em rgba(199, 90, 162, 0.537);
+  color: violet;
+}
+
+.btn3:active {
+  background-image: linear-gradient(
+    99deg,
+    rgb(52, 34, 44) 10.6%,
+    rgb(79, 13, 57) 140%
+  );
+  border-color: rgb(189, 107, 189);
+  box-shadow: inset 0.02em 0.02em 0.1em rgb(100, 79, 95);
+}
+
+.btn3:active.btn2::before {
+  background-color: rgb(76, 13, 55);
+  border: 0.01em solid rgba(99, 99, 99, 0.705);
+}
+
+.btn3::after {
+  background-color: rgba(255, 121, 226, 0.567);
+  left: 10%;
+  content: "";
+  height: 1%;
+  position: absolute;
+  top: 83%;
+  transition: all 0.15s;
+  width: 10%;
+  z-index: 2;
+}
+
+.btn3:hover.btn3::after {
+  width: 80%;
+}
+
+.btn3:active.btn3::after {
+  background-color: rgba(238, 130, 238, 0.736);
+}
+
+/* BUTTON 4  */
+
+.btn4 {
+  background-image: linear-gradient(
+    99deg,
+    rgb(52, 34, 44) 10.6%,
+    rgb(100, 18, 72) 140%
+  );
+  border: 0.03em solid rgb(151, 84, 129);
+  border-radius: 0.05em;
+  color: rgb(199, 135, 185);
+  font-family: Rajdhani-Medium;
+  font-size: 1.4rem;
+  letter-spacing: 0.15em;
+  padding: 0.4em 0.6em 0.4em 0.7em;
+  position: relative;
+}
+
+.btn4::before {
+  background-color: rgb(86, 20, 64);
+  border: 0.01em solid rgba(170, 170, 170, 0.44);
+  border-radius: 0.05em;
+  bottom: -4.57%;
+  content: "";
+  height: 108%;
+  left: -3%;
+  position: absolute;
+  transition: all 0.2s;
+  width: 106%;
+  z-index: -2;
+}
+
+.btn4:hover {
+  border-color: rgb(175, 96, 149);
+  border-top-left-radius: 0.5em 0.35em;
+  box-shadow: 0 0 0.15em rgba(199, 90, 162, 0.537);
+  color: violet;
+}
+
+.btn4:active {
+  background-image: linear-gradient(
+    99deg,
+    rgb(52, 34, 44) 10.6%,
+    rgb(79, 13, 57) 140%
+  );
+  border-color: rgb(189, 107, 189);
+  box-shadow: inset 0.02em 0.02em 0.1em rgb(100, 79, 95);
+}
+
+.btn4:active.btn2::before {
+  background-color: rgb(76, 13, 55);
+  border: 0.01em solid rgba(99, 99, 99, 0.705);
+}
+
+.btn4::after {
+  background-color: rgba(255, 121, 226, 0.567);
+  left: 10%;
+  content: "";
+  height: 1%;
+  position: absolute;
+  top: 83%;
+  /* transition: all 0.15s; */
+  width: 10%;
+  z-index: 2;
+}
+
+.btn4:hover.btn4::after {
+  width: 80%;
+}
+
+.btn4:active.btn4::after {
+  background-color: rgba(238, 130, 238, 0.564);
+  border-radius: 0.1em;
+  height: 100%;
+  left: -5.4%;
+  top: 0;
+  width: 112%;
+  z-index: -3;
 }
