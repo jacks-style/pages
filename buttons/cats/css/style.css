@@ -7,16 +7,17 @@ body {
   justify-content: center;
   margin: 0;
   padding: 0;
+  overflow: hidden;
   width: 100vw;
 }
 
-.div__button {
+.dbtn {
   height: 122px;
   position: relative;
   width: 140px;
 }
 
-#cat__button {
+#catsbtn {
   background-color: rgba(28, 28, 29, 0.336);
   border: 2px solid rgb(88, 85, 103);
   border-radius: 16px;
@@ -30,25 +31,69 @@ body {
   width: 140px;
 }
 
-#cat__button:hover {
+#catsbtn:hover {
   background-color: rgba(27, 27, 27, 0.789);
 }
 
-#cat__button:focus {
+#catsbtn:focus {
   box-shadow: 0 0 10px 5px rgba(64, 62, 74, 0.463);
   outline: none;
 }
 
-#cat__button:active {
+#catsbtn:active {
   box-shadow: none;
   border-color: rgb(66, 64, 77);
   color: rgb(169, 165, 182);
 }
 
-#cats__img {
+#catspic {
   display: none;
   position: absolute;
   left: 2px;
   top: -80px;
   width: 140px;
+  z-index: -1;
+}
+
+@keyframes end {
+  0% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  100% {
+    display: none;
+    opacity: 0;
+    transform: translate(500px);
+  }
+}
+
+@keyframes start {
+  0% {
+    opacity: 0;
+    transform: translateX(-500px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0%);
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(0%);
+  }
+
+  50% {
+    opacity: 0;
+    transform: translateY(20%);
+  }
+
+  80% {
+    opacity: 0.7;
+    transform: translateY(-10%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
 }
