@@ -1,9 +1,14 @@
-const BUTTON = document.getElementById("cat__button");
-const IMAGE = document.getElementById("cats__img");
+const BUTTON = document.getElementById("catsbtn");
+const IMAGE = document.getElementById("catspic");
 
 BUTTON.addEventListener("mouseover", () => {
   IMAGE.style.display = "block";
+  IMAGE.style.animation = "start 0.2s ease-in-out";
 });
+BUTTON.addEventListener("click", () => {
+  IMAGE.style.animation = "move 1.1s ease-in-out";
+});
+
 BUTTON.addEventListener("mouseout", () => {
-  IMAGE.style.display = "none";
+  IMAGE.style.animation = "end 0.2s ease-in-out forwards";
 });
