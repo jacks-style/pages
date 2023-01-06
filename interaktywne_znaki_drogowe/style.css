@@ -55,7 +55,7 @@ ul {
 }
 
 li {
-  color: rgb(155, 155, 155);
+  color: rgb(184, 184, 184);
   font-size: 1.4em;
   font-weight: 100;
   letter-spacing: 0.05em;
@@ -68,7 +68,7 @@ li:nth-child(2n) {
 }
 
 li a:hover {
-  color: rgb(235, 235, 235);
+  color: rgb(246, 246, 246);
 }
 
 a.city {
